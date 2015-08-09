@@ -1,0 +1,435 @@
+/* ==============
+MOBILE STYLING
+================ */
+
+body {
+	width: 100% !important;
+	left: 0;
+	right: 0;
+	font-family: 'Roboto Slab', serif;
+}
+
+.top-row {
+	/*height: 60px;
+	padding: 2% 0;*/
+}
+
+.back {
+	padding: 1% 0 1% 1%;
+}
+
+.back a {
+	text-decoration: none;
+}
+
+.back a:hover {
+	color: #94c588;
+}
+
+/*.play-right {
+	display: inline;
+	float: right;
+	padding-right: 3%;
+}*/
+
+/*.top-section {
+	position: relative;
+	z-index: 1;
+}*/
+
+/*.brands {
+	z-index: 100;
+	position: relative;
+	/*background-color: yellow;
+	top: -26em;
+	text-align: center;
+}
+
+.a-section {
+	height: 31em;
+	position: relative;
+	top: -23px;
+}*/
+
+.darkgray {
+	background-color: #c4c4c4;
+}
+
+/* Theme */
+.section {
+	/*height: 20em;*/
+}
+
+/*.blue {
+	background-color: blue;
+}*/
+
+.lightgray {
+	background-color: #d4d4d4;
+}
+
+
+/* End of Theme */
+
+.hero {
+	background-image: url('../images/ahmad-street-mobile.jpg');
+	height: 15em;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero-text {
+	text-align: center;
+	padding-top: 13%;
+}
+
+.brand {
+	width: 80%;
+}
+
+.heading {
+	font-size: 1.3em;
+	/*font-family: 'Roboto Slab', serif;*/
+	padding: 25px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.text {
+	/*font-family: 'Roboto Slab', serif;*/
+	padding: 0 4% 4%;
+	font-weight: 100;
+	font-size: 1.2em;
+}
+
+.quote, .author {
+	padding: 0 6% 6%;
+	font-size: 3em;
+	font-weight: 100;
+	text-align: center;
+}
+
+.author {
+	font-size: 1.5em;
+}
+
+/* Casting Section */
+
+.member {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 3% 0;
+}
+
+.bio-pic {
+	/*background-color: red;*/
+	height: 180px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.bio-name {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	padding: 10px 0 3px 0;
+	/*text-align: center;*/
+}
+
+.bio-title {
+	font-weight: 300;
+	/*padding: 10px 0;*/
+}
+
+.bio-bio {
+	font-weight: 100;
+	padding: 1% 4% 2%;
+	font-size: 1.1em;
+}
+
+/* set details */
+.set-details {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.set-heading {
+	font-size: 1.1em;
+}
+
+.details {
+	font-weight: 100;
+	padding: 2% 3%;
+}
+
+.padding {
+	padding-top: 2%;
+}
+
+.store-img {
+	width: 95%;
+}
+
+.store-img2 {
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.logos {
+	width: 100%;
+	text-align: center;
+}
+
+.bts {
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Slider */
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 268px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+/* End of Slider */
+
+/* Slides */
+
+/* End of slides */
+
+.video {
+	width: 100%;
+}
+
+.video-image {
+	padding: 20px 0;
+}
+
+.center-me {
+	text-align: center;
+	padding-bottom: 3%;	
+}
+
+.center-me a {
+	text-decoration: none;
+	color: #94c588;
+}
+
+.center-me a:hover{
+	color: black;
+}
+
+.pressplay {
+	font-size: 0.7em;
+}
+
+.credits {
+	padding-bottom: 3%;
+}
+
+.hover-me:hover {
+	border: 5px dashed #94c588;
+	padding-bottom: 1%;
+	/*width: 50%;*/
+	/*margin: auto;*/
+}
+
+
+
+/* =============
+TABLET STYLING
+================ */
+
+@media only screen and (min-width:375px) {
+	.brand {
+		width: 51%;
+	}
+}
+@media only screen and (min-width:540px) {
+	.hero-text {
+		padding-top: 13%;
+	}
+
+	#slider ul li {
+		width: 500px;
+	}
+
+	.bio-bio {
+		padding: 1% 15% 2%;
+	}
+
+	.video-image {
+		text-align: center;
+	}
+
+	.video {
+		width: 90%;
+	}
+
+	.details {
+		padding: 0 13%;
+	}
+
+	.brand {
+		width: 42%;
+	}
+
+	.hero {
+		height: 20em;
+	}
+
+	.set-details {
+		padding-bottom: 2%;
+	}
+}
+
+@media only screen and (min-width:750px) {
+	.casting-members {
+		/*width: 50%;*/
+		float: left;
+		position: relative;
+	}
+
+	.member {
+		float: left;
+		width: 47%;
+	}
+
+	.quote {
+		padding: 0 6% 3%;
+	}
+
+	.hero {
+	background-image: url('../images/ahmad-street.jpg');
+}
+
+/* ===============
+DESKTOP STYLING 
+================ */
+
+@media only screen and (min-width:850px) {
+	.hero {
+		height: 27em;
+		padding-top: 13%;
+	}
+
+	.video {
+		width: 65%;
+	}
+
+	.store-img {
+		width: 60%;
+	}
+
+	.text {
+		padding: 0 15% 4%;
+	}
+
+	.member {
+		width: 33%;
+	}
+
+	.text {
+		font-size: 1.3em;
+	}
+
+	.quote {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	#slider ul li {
+		width: 750px;
+		height: 550px;
+	}
+
+	.heading {
+		font-size: 1.7em;
+	}
+
+	.set-heading {
+		font-size: 1.2em;
+	}
+
+	.details {
+		font-size: 1.1em;
+	}
+
+	/*.brand {
+		width: 47%;
+	}*/
+
+	.hero-text {
+		padding-top: 0%;
+	}
+}
+
+@media screen and (min-width:1100px) {
+	#slider ul li {
+		width: 1000px;
+		height: 650px;
+	}
+}
